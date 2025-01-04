@@ -41,7 +41,7 @@ const Kemon = () => {
           data-aos-delay="400"
           className="w-full lg:w-1/2 flex flex-col justify-center items-start lg:pl-10 gap-6"
         >
-          <h1 className="font-bold text-left text-3xl text-black">
+          <h1 className="mb-10 font-bold text-left md:text-5xl xs:text-4xl text-black">
             Uporabljamo vrhunske izdelke Kemon
           </h1>
 
@@ -54,7 +54,7 @@ const Kemon = () => {
                 className="text-black"
                 style={{ fontSize: "24px" }}
               />
-              <h1 className="text-xl text-black font-semibold">
+              <h1 className="xs:text-xl md:text-2xl  text-black font-semibold">
                 Izdelki so izdelani z uporabo visokokakovostnih in naravnih
                 sestavin.
               </h1>
@@ -64,7 +64,7 @@ const Kemon = () => {
                 className="text-black"
                 style={{ fontSize: "24px" }}
               />
-              <h1 className="text-xl text-black font-semibold">
+              <h1 className="xs:text-xl md:text-2xl text-black font-semibold">
                 Izdelki so pakirani v okolju prijazne materiale.
               </h1>
             </div>
@@ -73,7 +73,7 @@ const Kemon = () => {
                 className="text-black"
                 style={{ fontSize: "24px" }}
               />
-              <h1 className="text-xl text-black font-semibold">
+              <h1 className="xs:text-xl md:text-2xl text-black font-semibold">
                 Uporabljajo napredne tehnološke rešitve pri razvoju svojih
                 izdelkov.
               </h1>
@@ -83,7 +83,7 @@ const Kemon = () => {
                 className="text-black"
                 style={{ fontSize: "24px" }}
               />
-              <h1 className="text-xl text-black font-semibold">
+              <h1 className="xs:text-xl md:text-2xl text-black font-semibold">
                 Oblikovani so tako, da zadovoljijo potrebe različnih tipov las.
               </h1>
             </div>
@@ -92,7 +92,7 @@ const Kemon = () => {
                 className="text-black"
                 style={{ fontSize: "24px" }}
               />
-              <h1 className="text-xl text-black font-semibold">
+              <h1 className="xs:text-xl md:text-2xl text-black font-semibold">
                 Priljubljena izbira med frizerji po vsem svetu.
               </h1>
             </div>

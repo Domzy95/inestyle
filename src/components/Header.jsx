@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-scroll";
 import { FaXmark, FaBars } from "react-icons/fa6";
 import { useState } from "react";
+import E from "../assets/E.svg";
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -24,32 +26,24 @@ const Header = () => {
 
   return (
     <>
-      <nav className="flex justify-between items-center gap-4 bg-[#d3d3d3] lg:px-10 px-4 py-8 sticky top-0 z-30 border-[8px] border-[#c4b568]">
+      <nav className="flex justify-between items-center gap-4 bg-[#d3d3d3] custom:px-10 px-4 py-8 sticky top-0 z-30 border-[8px] border-[#c4b568]">
         <div id="logo">
-          <h1 className="flex items-center text-black font-bold text-5xl">
+          <h1 className="flex items-center text-black font-bold md:text-5xl xs:text-4xl text-5xl">
             IN
-            <span
-              className="flex items-center justify-center text-[#c4b568] text-7xl leading-none mx-1"
-              style={{
-                position: "relative",
-                bottom: "0.3rem",
-              }} /* Adjust this for fine-tuning */
-            >
-              ≡
-            </span>
+            <img
+              src={E}
+              className="xs:size-12 mb-1 md:size-16 mt-2"
+              alt="E logo"
+            />
             STYL
-            <span
-              className="flex items-center justify-center text-[#c4b568] text-7xl leading-none mx-1"
-              style={{
-                position: "relative",
-                bottom: "0.3rem",
-              }} /* Adjust this for fine-tuning */
-            >
-              ≡
-            </span>
+            <img
+              src={E}
+              className="xs:size-12 mb-1 md:size-16 mt-2"
+              alt="E logo"
+            />
           </h1>
         </div>
-        <ul className="lg:flex justify-center items-center gap-6 hidden">
+        <ul className="custom:flex justify-center items-center gap-6 hidden">
           {navItems.map(({ link, path }) => (
             <Link
               key={path}
@@ -63,9 +57,9 @@ const Header = () => {
             </Link>
           ))}
         </ul>
-        {/*Hamburger menu se začne tukaj*/}
+        {/* Hamburger menu */}
         <div
-          className="flex justify-center items-center lg:hidden "
+          className="flex justify-center items-center custom:hidden"
           onClick={toggleMenu}
         >
           <div>
@@ -81,7 +75,7 @@ const Header = () => {
             isMenuOpen ? "flex" : "hidden"
           } w-full h-fit bg-slate-800 p-4 absolute top-[80px] left-0`}
         >
-          <ul className="md:flex  flex flex-col justify-center items-center gap-2 w-full">
+          <ul className="md:flex flex flex-col justify-center items-center gap-2 w-full">
             {navItems.map(({ link, path }) => (
               <Link
                 key={path}

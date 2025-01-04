@@ -10,7 +10,7 @@ export default {
       screens: {
         xs: "335px",
         xl: "1340px",
-        custom: "1102px",
+        custom: "1402px",
       },
     },
     fontFamily: {

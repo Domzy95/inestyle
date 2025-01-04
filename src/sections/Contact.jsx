@@ -100,12 +100,12 @@ const Contact = () => {
             rows="5"
             type="text"
             placeholder="Tukaj napišite vaše sporočilo..."
-            className="w-full p-3 text-black font-semibold"
+            className="w-full  p-3 text-black font-semibold"
           />
           <input
             type="submit"
             value={"Pošlji sporočilo"}
-            className="rounded-full xs:w-[50%] bg-[#c4b568] hover:bg-[#c4b568] cursor-pointer w-full font-semibold text-lg text-black p-3"
+            className="rounded-full xs:w-[60%] bg-[#c4b568] hover:bg-[#c4b568] cursor-pointer w-full font-semibold text-lg text-black p-3"
           />
         </div>
         {messageSent && (

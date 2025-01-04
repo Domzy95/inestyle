@@ -10,6 +10,7 @@ import menshair from "../assets/images/menshair.png";
 import trimmer from "../assets/images/trimmer.png";
 import { FaRegClock } from "react-icons/fa6";
 import { MdOutlineInvertColors } from "react-icons/md";
+import E from "../assets/E.svg";
 const Hero = () => {
   useEffect(() => {
     AOS.init({
@@ -32,31 +33,23 @@ const Hero = () => {
         >
           <h1
             data-aos="zoom-in"
-            className="text-6xl mt-20 text-black font-bold"
+            className="xs:text-5xl text-6xl  mt-20 xs:mx-2 text-black font-bold"
           >
             FRIZERSKO LEPOTNI SALON<br></br>
           </h1>
-          <h1 className="flex items-center text-black font-bold text-6xl">
+          <h1 className="ml-2  flex xs:text-5xl items-center text-black font-bold md:text-6xl">
             IN
-            <span
-              className="flex items-center justify-center text-[#c4b568] text-7xl leading-none mx-1"
-              style={{
-                position: "relative",
-                bottom: "0.3rem",
-              }} /* Adjust this for fine-tuning */
-            >
-              ≡
-            </span>
+            <img
+              src={E}
+              className="xs:size-14 mb-0.5 md:size-16  mt-2"
+              alt="E logo"
+            />
             STYL
-            <span
-              className="flex items-center justify-center text-[#c4b568] text-7xl leading-none mx-1"
-              style={{
-                position: "relative",
-                bottom: "0.3rem",
-              }} /* Adjust this for fine-tuning */
-            >
-              ≡
-            </span>
+            <img
+              src={E}
+              className="xs:size-14 mb-0.5 md:size-16 mt-2"
+              alt="E logo"
+            />
           </h1>
           <div
             data-aos="slide-up"
@@ -65,7 +58,7 @@ const Hero = () => {
           >
             <div
               id="icon-box"
-              className="flex justify-center items-center gap-3"
+              className="flex md:mt-6 justify-center items-center gap-3"
             >
               <FaLocationDot className="text-black size-6" />
               <a
@@ -77,6 +70,7 @@ const Hero = () => {
                 Grajski trg 5, 8360 Žužemberk, Slovenia
               </a>
             </div>
+
             <div
               id="icon-box"
               className="flex justify-center items-center gap-3"

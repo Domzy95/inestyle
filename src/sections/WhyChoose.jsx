@@ -26,7 +26,7 @@ const WhyChoose = () => {
           data-aos-delay="200"
           className=" ml-16 md:w-[70%] w-full flex flex-col justify-top items-top  gap-6 h-fit"
         >
-          <h1 className=" 4mt-2 mb-10 font-bold text-5xl text-white">
+          <h1 className=" lg:my-20 mt-2 xs:mb-6 mb-10 font-bold xs:text-4xl md:text-5xl text-white">
             Zakaj izbrati naš frizerski salon?
           </h1>
 
@@ -39,7 +39,7 @@ const WhyChoose = () => {
               className="flex justify-start items-center gap-3"
             >
               <FaAngleDoubleRight className="text-white size-6" />
-              <h1 className="text-2xl  text-white font-semibold">
+              <h1 className="xs:text-xl md:text-2xl  text-white font-semibold">
                 Vedno prijetno vzdušje
               </h1>
             </div>
@@ -48,7 +48,7 @@ const WhyChoose = () => {
               className="flex justify-start items-center gap-3"
             >
               <FaAngleDoubleRight className="text-white size-6" />
-              <h1 className="text-2xl text-white font-semibold">
+              <h1 className="xs:text-xl md:text-2xl text-white font-semibold">
                 Delamo samo s kvalitetnimi produkti za nego las
               </h1>
             </div>
@@ -57,7 +57,7 @@ const WhyChoose = () => {
               className="flex justify-start items-center gap-3"
             >
               <FaAngleDoubleRight className="text-white size-6" />
-              <h1 className="text-2xl text-white font-semibold">
+              <h1 className="xs:text-xl md:text-2xl text-white font-semibold">
                 Cenimo čas in denar naših strank
               </h1>
             </div>
@@ -66,7 +66,7 @@ const WhyChoose = () => {
               className="flex justify-start items-center gap-3"
             >
               <FaAngleDoubleRight className="text-white size-6" />
-              <h1 className="text-2xl text-white font-semibold">
+              <h1 className="xs:text-xl md:text-2xl text-white font-semibold">
                 Vse površine in orodje pred in po uporabi očistimo, razkužimo
               </h1>
             </div>
@@ -75,7 +75,7 @@ const WhyChoose = () => {
               className="flex justify-start items-center gap-3"
             >
               <FaAngleDoubleRight className="text-white size-6" />
-              <h1 className="text-2xl text-white font-semibold">
+              <h1 className="xs:text-xl md:text-2xl text-white font-semibold">
                 Vedno prijetno vzdušje!
               </h1>
             </div>

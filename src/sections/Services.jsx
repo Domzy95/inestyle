@@ -93,14 +93,7 @@ const Services = () => {
           </h1>
           <h1 className="text-4xl font-bold text-[#c4b568]">15€</h1>
         </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-delay="200"
-          className="flex justify-between items-center gap-6 border-b-2 border-[#c4b568] pb-10"
-        >
-          <h1 className="text-3xl text-gray-900 font-bold">Actyva nega las</h1>
-          <h1 className="text-4xl font-bold text-[#c4b568]">85€</h1>
-        </div>
+
         <div
           data-aos="zoom-in"
           data-aos-delay="200"

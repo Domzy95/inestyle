@@ -6,6 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";
 import { Link } from "react-scroll";
+import E from "../assets/E.svg";
 
 const Footer = () => {
   useEffect(() => {
@@ -19,30 +20,22 @@ const Footer = () => {
   return (
     <>
       <section className=" bg-gray-900 md:px-20 px-10 md:py-20 py-10 flex flex-col justify-center items-center gap-6 border-[20px] border-[#c4b568]">
-        <h1 className="flex items-center text-white font-bold text-5xl">
+        <h1 className="flex items-center text-white font-bold xs:text-4xl md:text-5xl">
           IN
-          <span
-            className="flex items-center justify-center text-[#c4b568] text-7xl leading-none mx-1"
-            style={{
-              position: "relative",
-              bottom: "0.3rem",
-            }} /* Adjust this for fine-tuning */
-          >
-            ≡
-          </span>
+          <img
+            src={E}
+            className="xs:size-12 mb-0.5 md:size-14 mt-2"
+            alt="E logo"
+          />
           STYL
-          <span
-            className="flex items-center justify-center text-[#c4b568] text-7xl leading-none mx-1"
-            style={{
-              position: "relative",
-              bottom: "0.3rem",
-            }} /* Adjust this for fine-tuning */
-          >
-            ≡
-          </span>
+          <img
+            src={E}
+            className="xs:size-12 mb-0.5 md:size-14 mt-2"
+            alt="E logo"
+          />
         </h1>
 
-        <p className="text-lg text-center font-semibold text-white">
+        <p className="xs:text-md md:text-lg text-center font-semibold text-white">
           Lepota se začne z vami. Mi smo tukaj, da jo poudarimo.
         </p>
         <div id="icons" className="flex justify-center items-center gap-4">

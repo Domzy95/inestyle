@@ -52,9 +52,9 @@ const Kemon = () => {
             <div className="flex justify-start items-center gap-3">
               <FaAngleDoubleRight
                 className="text-black"
-                style={{ fontSize: "24px" }}
+                style={{ fontSize: "34px" }}
               />
-              <h1 className="xs:text-xl md:text-2xl  text-black font-semibold">
+              <h1 className="xs:text-2xl md:text-3xl  text-black font-semibold">
                 Izdelki so izdelani z uporabo visokokakovostnih in naravnih
                 sestavin.
               </h1>
@@ -62,18 +62,18 @@ const Kemon = () => {
             <div className="flex justify-start items-center gap-3">
               <FaAngleDoubleRight
                 className="text-black"
-                style={{ fontSize: "24px" }}
+                style={{ fontSize: "34px" }}
               />
-              <h1 className="xs:text-xl md:text-2xl text-black font-semibold">
+              <h1 className="xs:text-2xl md:text-3xl text-black font-semibold">
                 Izdelki so pakirani v okolju prijazne materiale.
               </h1>
             </div>
             <div className="flex justify-start items-center gap-3">
               <FaAngleDoubleRight
                 className="text-black"
-                style={{ fontSize: "24px" }}
+                style={{ fontSize: "34px" }}
               />
-              <h1 className="xs:text-xl md:text-2xl text-black font-semibold">
+              <h1 className="xs:text-2xl md:text-3xl text-black font-semibold">
                 Uporabljajo napredne tehnološke rešitve pri razvoju svojih
                 izdelkov.
               </h1>
@@ -81,18 +81,18 @@ const Kemon = () => {
             <div className="flex justify-start items-center gap-3">
               <FaAngleDoubleRight
                 className="text-black"
-                style={{ fontSize: "24px" }}
+                style={{ fontSize: "34px" }}
               />
-              <h1 className="xs:text-xl md:text-2xl text-black font-semibold">
+              <h1 className="xs:text-2xl md:text-3xl text-black font-semibold">
                 Oblikovani so tako, da zadovoljijo potrebe različnih tipov las.
               </h1>
             </div>
             <div className="flex justify-start items-center gap-3">
               <FaAngleDoubleRight
                 className="text-black"
-                style={{ fontSize: "24px" }}
+                style={{ fontSize: "34px" }}
               />
-              <h1 className="xs:text-xl md:text-2xl text-black font-semibold">
+              <h1 className="xs:text-2xl md:text-3xl text-black font-semibold">
                 Priljubljena izbira med frizerji po vsem svetu.
               </h1>
             </div>

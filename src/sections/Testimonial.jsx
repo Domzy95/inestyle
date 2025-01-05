@@ -31,7 +31,7 @@ const Testimonial = () => {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 800,
+      duration: 500,
       easing: "ease-in-sine",
       delay: 100,
     });
@@ -74,7 +74,7 @@ const Testimonial = () => {
               <img
                 src={client.image}
                 alt="client"
-                className="aspect-square rounded-full border-8 border-[#c4b568] w-[80px] h-[80px] lg:w-[120px] lg:h-[120px] object-cover transform hover:scale-110 transition duration-300 cursor-pointer"
+                className="aspect-square rounded-full border-8 border-[#c4b568] w-[100px] h-[100px] lg:w-[120px] lg:h-[120px] object-cover transform hover:scale-110 transition duration-300 cursor-pointer"
               />
             </div>
             <div id="bottom" className="w-full">

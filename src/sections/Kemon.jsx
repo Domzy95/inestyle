@@ -9,7 +9,7 @@ const Kemon = () => {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 800,
+      duration: 500,
       easing: "ease-in-sine",
       delay: 100,
     });
@@ -20,7 +20,7 @@ const Kemon = () => {
       {/* Zakaj izbrati? */}
       <section
         id="kemon"
-        className="w-full px-10 py-10 flex flex-col lg:flex-row bg-white justify-center items-center gap-10"
+        className="w-full  py-10 flex flex-col lg:flex-row bg-white justify-center items-center gap-10"
       >
         {/* Image Section */}
         <div
@@ -39,9 +39,9 @@ const Kemon = () => {
         <div
           data-aos="slide-up"
           data-aos-delay="400"
-          className="w-full lg:w-1/2 flex flex-col justify-center items-start lg:pl-10 gap-6"
+          className="w-full lg:w-1/2 px-10 flex flex-col justify-center items-start lg:pl-10 gap-6"
         >
-          <h1 className="mb-10 font-bold text-left md:text-5xl xs:text-4xl text-black">
+          <h1 className="mb-5 font-bold text-left md:text-5xl xs:text-4xl text-black">
             Uporabljamo vrhunske izdelke Kemon
           </h1>
 

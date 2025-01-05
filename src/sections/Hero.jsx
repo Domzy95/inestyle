@@ -15,7 +15,7 @@ const Hero = () => {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 800,
+      duration: 500,
       easing: "ease-in-sine",
       delay: 100,
     });
@@ -33,7 +33,7 @@ const Hero = () => {
         >
           <h1
             data-aos="zoom-in"
-            className="xs:text-5xl text-6xl  mt-20 xs:mx-2 text-black font-bold"
+            className="xs:text-5xl text-6xl mt-20 xs:mx-2 text-black font-bold"
           >
             FRIZERSKO LEPOTNI SALON<br></br>
           </h1>
@@ -95,7 +95,7 @@ const Hero = () => {
           <img
             src={logo}
             alt="logo"
-            className=" xs:h-[600px]  py-10  lg:mx-20  rounded-xl w-full   md:w-[600px] md:h-[700px] 
+            className=" xs:h-[400px] py-10 lg:mx-20  rounded-xl w-full   md:w-[600px] md:h-[700px] 
                lg:w-[700px] lg:h-[700px] 
                xl:w-[700px] xl:h-[700px] "
           />

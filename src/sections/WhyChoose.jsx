@@ -8,7 +8,7 @@ const WhyChoose = () => {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 800,
+      duration: 500,
       easing: "ease-in-sine",
       delay: 100,
     });
@@ -24,7 +24,7 @@ const WhyChoose = () => {
         <div
           data-aos="slide-up"
           data-aos-delay="200"
-          className=" ml-16 md:w-[70%] w-full flex flex-col justify-top items-top  gap-6 h-fit"
+          className=" ml-16 md:w-[70%] mb-8 w-full flex flex-col justify-top items-top  gap-6 h-fit"
         >
           <h1 className=" lg:my-20 mt-2 xs:mb-6 mb-10 font-bold xs:text-4xl md:text-6xl text-white">
             Zakaj izbrati naš frizerski salon?

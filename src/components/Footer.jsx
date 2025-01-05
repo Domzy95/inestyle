@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <>
       <section className=" bg-gray-900 md:px-20 px-10 md:py-20 py-10 flex flex-col justify-center items-center gap-6 border-[20px] border-[#c4b568]">
-        <h1 className="flex items-center text-white font-bold xs:text-4xl md:text-5xl">
+        <h1 className="flex  items-center text-white font-bold xs:text-4xl md:text-5xl">
           IN
           <img
             src={E}

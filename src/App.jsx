@@ -8,6 +8,8 @@ import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 import Kemon from "./sections/Kemon";
+import Boni from "./sections/Boni";
+
 const App = () => {
   return (
     <>
@@ -15,6 +17,7 @@ const App = () => {
       <Hero />
       <WhyChoose />
       <Kemon />
+      <Boni />
       <Services />
       <Gallery />
       <Testimonial />

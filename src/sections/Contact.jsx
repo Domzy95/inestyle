@@ -34,7 +34,7 @@ const Contact = () => {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 800,
+      duration: 500,
       easing: "ease-in-sine",
       delay: 100,
     });

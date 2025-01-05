@@ -14,7 +14,7 @@ export default {
       },
     },
     fontFamily: {
-      custom: ["Tangerine", "serif"],
+      custom: ["Cormorant Garamond", "serif"],
     },
   },
   plugins: [],

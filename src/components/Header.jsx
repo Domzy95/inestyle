@@ -18,6 +18,7 @@ const Header = () => {
     { link: "Domov", path: "hero" },
     { link: "O nas", path: "whychoose" },
     { link: "Izdelki Kemon", path: "kemon" },
+    { link: "Bon", path: "boni" },
     { link: "Storitve", path: "services" },
     { link: "Galerija", path: "gallery" },
     { link: "Zadovoljne stranke", path: "stranke" },
@@ -28,7 +29,7 @@ const Header = () => {
     <>
       <nav className="flex justify-between items-center gap-4 bg-[#d3d3d3] custom:px-10 px-4 py-8 sticky top-0 z-30 border-[8px] border-[#c4b568]">
         <div id="logo">
-          <h1 className="flex items-center text-black font-bold md:text-5xl xs:text-4xl text-5xl">
+          <h1 className="flex  items-center text-black font-bold md:text-5xl xs:text-4xl text-5xl">
             IN
             <img
               src={E}
